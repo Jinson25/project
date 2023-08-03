@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #3182CE;
+}
+
+.container {
+  display: flex;
+  /* Asegura que los elementos (sidebar y contenido) estén uno al lado del otro */
+}
+
+/* Estilo para el div que se mantendrá estático (sidebar) */
+.mi-div {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Estilo para el contenido de la página */
+.contenido {
+  margin-left: 240px; /* Debes ajustar este valor según el ancho del sidebar y otros estilos aplicados */
+}
