@@ -3,17 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { ClientRoutingModule } from './client-routing.module';
 import { HomeComponent } from './home/home.component';
-import { AppModule } from 'src/app/app.module';
+import { ForumComponent } from './forum/forum.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
+    ForumComponent,
   ],
   imports: [
     CommonModule,
     ClientRoutingModule,
-    AppModule
   ],
 })
 export class ClientModule { }

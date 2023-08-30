@@ -9,6 +9,11 @@ import { SidebarComponent } from './components/partials/sidebar/sidebar.componen
 import { HeaderComponent } from './components/partials/header/header.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
+import { FormsModule } from '@angular/forms';
+import { ClientModule } from './components/client/client.module';
+import { AdminModule } from './components/admin/admin.module';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +23,14 @@ import { RegisterComponent } from './components/auth/register/register.component
     SidebarComponent,
     HeaderComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    AdminModule,
+    ClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

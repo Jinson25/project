@@ -2,12 +2,13 @@
     background-color: #000225;
 }
 
-.container {
+.header .container {
     display: flex;
     width: 100vw;
-    height: 85vh;
+    height: 67vh;
     gap: 100px;
 }
+
 
 .slogan {
     display: flex;
@@ -52,4 +53,16 @@
     font-size: 20px;
     font-weight: 700;
     color: #000;
+}
+
+.p-post-inner {
+    background-image: url(https://img.freepik.com/free-photo/social-media-concept-with-emojis-icons_23-2149834255.jpg?w=740&t=st=1691688094~exp=1691688694~hmac=a7c8a1202ac353d3542810e9f31bb1577a6ce4c404a086920e942a49aaee1d46);
+    padding: 20px;
+    height: 100vh;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.first {
+    padding-bottom: 20px;
 }

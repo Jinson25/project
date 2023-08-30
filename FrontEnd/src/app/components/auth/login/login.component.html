@@ -1,1 +1,55 @@
-<p>login works!</p>
+<div class="content-body">
+    <section class="login row flexbox-container">
+        <div class="col-xl-8 col-11">
+            <div class="card">
+                <div class="row justify-content-center align-items-center g-2">
+                    <!-- left login seccion formulario -->
+                    <div class="col-md-6 col-12 px-0">
+                        <div class="card-header">
+                            <div class="card-title"><h4 class="text-center mb-2">Iniciar Sessión</h4></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="divider">
+                                <div class="divider-text text-uppercase text-muted"><small>Ingresa tus datos</small>
+                                </div>
+                            </div>
+                            <form id="form-login" method="post" novalidate="novalidate">
+                                <div class="form-group mb-50">
+                                    <label class="text-bold-600" for="email">Correo:</label>
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Dirección de correo" aria-invalid="false">
+                                </div>
+                                <div class="form-group">
+                                    <label class="text-bold-600" for="password">Contraseña</label>
+                                    <input type="password" class="form-control" name="password" id="password"
+                                        placeholder="Contraseña" aria-invalid="false">
+                                </div>
+                                <div class="form-group d-flex flex-md-row flex-column justify-content-between align-items-center">
+                                    <div class="text-left">
+                                    </div>
+                                    <div class="text-right"><a href="" class="card-link"><small>Olvidó su
+                                                contraseña?</small></a></div>
+                                </div>
+                                <button type="submit"
+                                    class="btn btn-primary glow w-100 position-relative">Ingresar<i id="icon-arrow"
+                                        class="bx bx-right-arrow-alt"></i></button>
+                            </form>
+                            <hr>
+                                <div class="text-center"><small class="mr-25">No tiene cuenta?</small>
+                                    <a href=""><small>Crear una cuenta</small></a>
+                                </div>
+                        </div>
+
+                    </div>
+                    <!-- right login seccion imagen -->
+                    <div class="col-md-6 d-md-block d-none text-center align-self-center p-3">
+                        <img class="img-fluid"
+                            src="assets/img/homes.png"
+                            alt="logo javiJobs">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
